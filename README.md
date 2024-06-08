@@ -2,7 +2,6 @@
 <h3>진행 결과</h3>
 <img width="958" alt="image" src="https://github.com/jjsh0208/youtube_player/assets/128787964/bd1aa4e2-3582-4d8d-aa7f-df663b677072">
 <hr>
-
 <h3>1. Google API Console에서 프로젝트 생성 및 유튜브 데이터 API 활성화</h3>
 1. https://console.developers.google.com/ 에 접속해 새 프로젝트를 생성한다.<br>
 2. 생성한 프로젝트에서 "Library"로 이동하여 "YouTube Data API"를 찾은 후 활성화한다.<br>
