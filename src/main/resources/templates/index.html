@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"   xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" th:href="@{../css/style.css}">
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <form class="search-form" th:action="@{/youtube}"  method="get">
+            <input class="search-input"  name="keyword" placeholder="Search..." type="text"/>
+            <button class="search-button" type="submit">Search</button>
+        </form>
+        <div class="results" th:each="youtube : ${youtubeInfo}">
+            <div class="result-item">
+                <h5 class="result-title" th:text="${youtube.key}"></h5>
+                <a th:href="@{'https://www.youtube.com/watch?v=' + ${youtube.value}}"  target="_blank" rel="noopener noreferrer" th:text="보러가기"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
