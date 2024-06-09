@@ -7,14 +7,13 @@ import com.google.api.services.youtube.YouTube;
 import com.google.api.services.youtube.model.SearchListResponse;
 import com.google.api.services.youtube.model.SearchResult;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
-@ComponentScan
+
 @Service
 public class YoutubeService {
 
@@ -43,7 +42,7 @@ public class YoutubeService {
         search.setQ(query);
 
         //검색 결과 개수 10개로 설정
-        search.setMaxResults(3L);
+        search.setMaxResults(1L);
 
         // 검색 요청 실행 및 응답 받아오기
         SearchListResponse searchResponse = search.execute();
