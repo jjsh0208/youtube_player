@@ -1,4 +1,4 @@
-<h1>YouTube Data API 로 MusicPlayer 만들기</h1>
+<h1>YouTube Data API 로 Player 만들기</h1>
 <h3>진행 결과</h3>
 <img width="958" alt="image" src="https://github.com/jjsh0208/youtube_player/assets/128787964/bd1aa4e2-3582-4d8d-aa7f-df663b677072">
 <hr>
