@@ -1,6 +1,9 @@
 <h1>YouTube Data API 로 Player 만들기</h1>
 <h3>진행 결과 / 24.06.12 트래픽 줄이기</h3>
-<img width="958" alt="image" src="https://github.com/jjsh0208/youtube_player/assets/128787964/bd1aa4e2-3582-4d8d-aa7f-df663b677072">
+<img width="959" alt="image" src="https://github.com/jjsh0208/youtube_player/assets/128787964/8a25d66d-3bc4-4f97-a12c-f93fdea34818">
+<img width="959" alt="image" src="https://github.com/jjsh0208/youtube_player/assets/128787964/15d97d8c-977c-4c44-8467-6dd377c80187">
+
+
 <hr>
 <h3>1. Google API Console에서 프로젝트 생성 및 유튜브 데이터 API 활성화</h3>
 1. https://console.developers.google.com/ 에 접속해 새 프로젝트를 생성한다.<br>
