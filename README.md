@@ -42,7 +42,7 @@ Youtube Data API의 하루 트래픽 수 가 정해져있어 여러번 테스트
   캐시에 값이 없으면 API를 호출하고 캐시에 결과를 저장한다.
   캐싱이 잘 적용되는지 확인하기 위해 log 를 찍어 확인해본다.
 </p>
-<img width="700" alt="image" src="https://github.com/jjsh0208/youtube_player/assets/128787964/5667cf2d-5a9e-4ce8-9648-5a6236dc84d4">
+<img width="700" alt="image" src="https://github.com/jjsh0208/youtube_player/assets/128787964/5667cf2d-5a9e-4ce8-9648-5a6236dc84d4"><br>
 동일한 검색을 요청했을 때 로그가 한 번만 나오면 캐싱이 잘 적용된 것이다.<br><br>
 
 동일한 검색을 두 번 요청했는데 처음보다 빠르게 반환되었다. 잘 적용된 듯.
