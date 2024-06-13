@@ -31,6 +31,11 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
+
+    //캐싱을 사용하기 위해 의존성 추가
+    implementation 'org.springframework.boot:spring-boot-starter-cache'
+
+
     //Google API와 통신하기 위한 Java용 클라리언트 라이브러리
     implementation 'com.google.api-client:google-api-client:1.33.0'
     //OAuth 2.0인증 프로토콜을 지원하기 위한 Jetty 구현을 포함하는 라이브러리
