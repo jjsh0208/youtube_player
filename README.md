@@ -3,7 +3,11 @@
 <img width="959" alt="image" src="https://github.com/jjsh0208/youtube_player/assets/128787964/8a25d66d-3bc4-4f97-a12c-f93fdea34818">
 <img width="959" alt="image" src="https://github.com/jjsh0208/youtube_player/assets/128787964/15d97d8c-977c-4c44-8467-6dd377c80187">
 
-
+<hr>
+<h3>잡담</h3>
+google에서 제공하는 api중에 무언가 하나를 사용해보고싶다는 생각이 들어 가볍게 사용해봤다.<br>
+잘 응용하면 재밌는걸 만들 수 있겠어서 정리해두고 사이드 프로젝트에 한번은 응용해야겠다.<br>
+요청건수가 적어 간단한 트래픽 제어도 해봤다.
 <hr>
 <h3>1. Google API Console에서 프로젝트 생성 및 유튜브 데이터 API 활성화</h3>
 1. https://console.developers.google.com/ 에 접속해 새 프로젝트를 생성한다.<br>
