@@ -59,7 +59,3 @@ Youtube Data API의 하루 트래픽 수 가 정해져있어 여러번 테스트
 <img width="700" alt="image" src="https://github.com/jjsh0208/youtube_player/assets/128787964/3e0d6c92-6b9a-4f81-a238-4647d040cc99">
 
 <hr>
-<h3>잡담</h3>
-google에서 제공하는 api중에 무언가 하나를 사용해보고싶다는 생각이 들어 가볍게 사용해봤다.<br>
-잘 응용하면 재밌는걸 만들 수 있겠어서 정리해두고 사이드 프로젝트에 한번은 응용해야겠다.<br>
-요청건수가 적어 간단한 트래픽 제어도 해봤다.
